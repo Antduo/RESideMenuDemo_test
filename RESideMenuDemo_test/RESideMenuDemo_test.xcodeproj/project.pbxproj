@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F97E601ED3035500ED6F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E5F1ED3035500ED6F3B /* main.m */; };
+		66F97E631ED3035500ED6F3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E621ED3035500ED6F3B /* AppDelegate.m */; };
+		66F97E661ED3035500ED6F3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E651ED3035500ED6F3B /* ViewController.m */; };
+		66F97E691ED3035500ED6F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F97E671ED3035500ED6F3B /* Main.storyboard */; };
+		66F97E6B1ED3035500ED6F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F97E6A1ED3035500ED6F3B /* Assets.xcassets */; };
+		66F97E6E1ED3035500ED6F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F97E6C1ED3035500ED6F3B /* LaunchScreen.storyboard */; };
+		66F97E791ED3035500ED6F3B /* RESideMenuDemo_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E781ED3035500ED6F3B /* RESideMenuDemo_testTests.m */; };
+		66F97E841ED3035500ED6F3B /* RESideMenuDemo_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E831ED3035500ED6F3B /* RESideMenuDemo_testUITests.m */; };
+		66F97E941ED3044600ED6F3B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E921ED3044600ED6F3B /* MenuViewController.m */; };
+		66F97E951ED3044600ED6F3B /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F97E931ED3044600ED6F3B /* MenuViewController.xib */; };
+		66F97E991ED30C5900ED6F3B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F97E971ED30C5900ED6F3B /* SettingViewController.m */; };
+		66F97E9A1ED30C5900ED6F3B /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F97E981ED30C5900ED6F3B /* SettingViewController.xib */; };
+		D8178CD5E4C6A2C206EECED1 /* libPods-RESideMenuDemo_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B6C3BA98D552BC0E6D6087 /* libPods-RESideMenuDemo_test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F97E751ED3035500ED6F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F97E531ED3035500ED6F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F97E5A1ED3035500ED6F3B;
+			remoteInfo = RESideMenuDemo_test;
+		};
+		66F97E801ED3035500ED6F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F97E531ED3035500ED6F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F97E5A1ED3035500ED6F3B;
+			remoteInfo = RESideMenuDemo_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F97E5B1ED3035500ED6F3B /* RESideMenuDemo_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESideMenuDemo_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F97E5F1ED3035500ED6F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F97E611ED3035500ED6F3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F97E621ED3035500ED6F3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F97E641ED3035500ED6F3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F97E651ED3035500ED6F3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66F97E681ED3035500ED6F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F97E6A1ED3035500ED6F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F97E6D1ED3035500ED6F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F97E6F1ED3035500ED6F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F97E741ED3035500ED6F3B /* RESideMenuDemo_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESideMenuDemo_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F97E781ED3035500ED6F3B /* RESideMenuDemo_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESideMenuDemo_testTests.m; sourceTree = "<group>"; };
+		66F97E7A1ED3035500ED6F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F97E7F1ED3035500ED6F3B /* RESideMenuDemo_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESideMenuDemo_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F97E831ED3035500ED6F3B /* RESideMenuDemo_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESideMenuDemo_testUITests.m; sourceTree = "<group>"; };
+		66F97E851ED3035500ED6F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F97E911ED3044600ED6F3B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		66F97E921ED3044600ED6F3B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		66F97E931ED3044600ED6F3B /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		66F97E961ED30C5900ED6F3B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		66F97E971ED30C5900ED6F3B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		66F97E981ED30C5900ED6F3B /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		6D47A061FBC694F432C04E61 /* Pods-RESideMenuDemo_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideMenuDemo_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESideMenuDemo_test/Pods-RESideMenuDemo_test.debug.xcconfig"; sourceTree = "<group>"; };
+		B76F903B9630BE03BC2745B5 /* Pods-RESideMenuDemo_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideMenuDemo_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESideMenuDemo_test/Pods-RESideMenuDemo_test.release.xcconfig"; sourceTree = "<group>"; };
+		F8B6C3BA98D552BC0E6D6087 /* libPods-RESideMenuDemo_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RESideMenuDemo_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F97E581ED3035500ED6F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8178CD5E4C6A2C206EECED1 /* libPods-RESideMenuDemo_test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E711ED3035500ED6F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E7C1ED3035500ED6F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D00DCAF9C4A6A7C1DCAF32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D47A061FBC694F432C04E61 /* Pods-RESideMenuDemo_test.debug.xcconfig */,
+				B76F903B9630BE03BC2745B5 /* Pods-RESideMenuDemo_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66F97E521ED3035500ED6F3B = {
+			isa = PBXGroup;
+			children = (
+				66F97E5D1ED3035500ED6F3B /* RESideMenuDemo_test */,
+				66F97E771ED3035500ED6F3B /* RESideMenuDemo_testTests */,
+				66F97E821ED3035500ED6F3B /* RESideMenuDemo_testUITests */,
+				66F97E5C1ED3035500ED6F3B /* Products */,
+				00D00DCAF9C4A6A7C1DCAF32 /* Pods */,
+				D7EF8B3D1FB874D8ECC7E632 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66F97E5C1ED3035500ED6F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F97E5B1ED3035500ED6F3B /* RESideMenuDemo_test.app */,
+				66F97E741ED3035500ED6F3B /* RESideMenuDemo_testTests.xctest */,
+				66F97E7F1ED3035500ED6F3B /* RESideMenuDemo_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F97E5D1ED3035500ED6F3B /* RESideMenuDemo_test */ = {
+			isa = PBXGroup;
+			children = (
+				66F97E611ED3035500ED6F3B /* AppDelegate.h */,
+				66F97E621ED3035500ED6F3B /* AppDelegate.m */,
+				66F97E641ED3035500ED6F3B /* ViewController.h */,
+				66F97E651ED3035500ED6F3B /* ViewController.m */,
+				66F97E911ED3044600ED6F3B /* MenuViewController.h */,
+				66F97E921ED3044600ED6F3B /* MenuViewController.m */,
+				66F97E931ED3044600ED6F3B /* MenuViewController.xib */,
+				66F97E961ED30C5900ED6F3B /* SettingViewController.h */,
+				66F97E971ED30C5900ED6F3B /* SettingViewController.m */,
+				66F97E981ED30C5900ED6F3B /* SettingViewController.xib */,
+				66F97E671ED3035500ED6F3B /* Main.storyboard */,
+				66F97E6A1ED3035500ED6F3B /* Assets.xcassets */,
+				66F97E6C1ED3035500ED6F3B /* LaunchScreen.storyboard */,
+				66F97E6F1ED3035500ED6F3B /* Info.plist */,
+				66F97E5E1ED3035500ED6F3B /* Supporting Files */,
+			);
+			path = RESideMenuDemo_test;
+			sourceTree = "<group>";
+		};
+		66F97E5E1ED3035500ED6F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F97E5F1ED3035500ED6F3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F97E771ED3035500ED6F3B /* RESideMenuDemo_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F97E781ED3035500ED6F3B /* RESideMenuDemo_testTests.m */,
+				66F97E7A1ED3035500ED6F3B /* Info.plist */,
+			);
+			path = RESideMenuDemo_testTests;
+			sourceTree = "<group>";
+		};
+		66F97E821ED3035500ED6F3B /* RESideMenuDemo_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F97E831ED3035500ED6F3B /* RESideMenuDemo_testUITests.m */,
+				66F97E851ED3035500ED6F3B /* Info.plist */,
+			);
+			path = RESideMenuDemo_testUITests;
+			sourceTree = "<group>";
+		};
+		D7EF8B3D1FB874D8ECC7E632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6C3BA98D552BC0E6D6087 /* libPods-RESideMenuDemo_test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F97E5A1ED3035500ED6F3B /* RESideMenuDemo_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F97E881ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_test" */;
+			buildPhases = (
+				BF44FDF159AA0FC7213BDA73 /* [CP] Check Pods Manifest.lock */,
+				66F97E571ED3035500ED6F3B /* Sources */,
+				66F97E581ED3035500ED6F3B /* Frameworks */,
+				66F97E591ED3035500ED6F3B /* Resources */,
+				0A27086CACADEB0C75D64A0E /* [CP] Embed Pods Frameworks */,
+				CEEC3D3CD6900F13A22A9E35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenuDemo_test;
+			productName = RESideMenuDemo_test;
+			productReference = 66F97E5B1ED3035500ED6F3B /* RESideMenuDemo_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F97E731ED3035500ED6F3B /* RESideMenuDemo_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F97E8B1ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_testTests" */;
+			buildPhases = (
+				66F97E701ED3035500ED6F3B /* Sources */,
+				66F97E711ED3035500ED6F3B /* Frameworks */,
+				66F97E721ED3035500ED6F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F97E761ED3035500ED6F3B /* PBXTargetDependency */,
+			);
+			name = RESideMenuDemo_testTests;
+			productName = RESideMenuDemo_testTests;
+			productReference = 66F97E741ED3035500ED6F3B /* RESideMenuDemo_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F97E7E1ED3035500ED6F3B /* RESideMenuDemo_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F97E8E1ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_testUITests" */;
+			buildPhases = (
+				66F97E7B1ED3035500ED6F3B /* Sources */,
+				66F97E7C1ED3035500ED6F3B /* Frameworks */,
+				66F97E7D1ED3035500ED6F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F97E811ED3035500ED6F3B /* PBXTargetDependency */,
+			);
+			name = RESideMenuDemo_testUITests;
+			productName = RESideMenuDemo_testUITests;
+			productReference = 66F97E7F1ED3035500ED6F3B /* RESideMenuDemo_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F97E531ED3035500ED6F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "物联利浪";
+				TargetAttributes = {
+					66F97E5A1ED3035500ED6F3B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M5VHM7SCC9;
+						ProvisioningStyle = Automatic;
+					};
+					66F97E731ED3035500ED6F3B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M5VHM7SCC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66F97E5A1ED3035500ED6F3B;
+					};
+					66F97E7E1ED3035500ED6F3B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M5VHM7SCC9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66F97E5A1ED3035500ED6F3B;
+					};
+				};
+			};
+			buildConfigurationList = 66F97E561ED3035500ED6F3B /* Build configuration list for PBXProject "RESideMenuDemo_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F97E521ED3035500ED6F3B;
+			productRefGroup = 66F97E5C1ED3035500ED6F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F97E5A1ED3035500ED6F3B /* RESideMenuDemo_test */,
+				66F97E731ED3035500ED6F3B /* RESideMenuDemo_testTests */,
+				66F97E7E1ED3035500ED6F3B /* RESideMenuDemo_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F97E591ED3035500ED6F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F97E6E1ED3035500ED6F3B /* LaunchScreen.storyboard in Resources */,
+				66F97E9A1ED30C5900ED6F3B /* SettingViewController.xib in Resources */,
+				66F97E6B1ED3035500ED6F3B /* Assets.xcassets in Resources */,
+				66F97E691ED3035500ED6F3B /* Main.storyboard in Resources */,
+				66F97E951ED3044600ED6F3B /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E721ED3035500ED6F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E7D1ED3035500ED6F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A27086CACADEB0C75D64A0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideMenuDemo_test/Pods-RESideMenuDemo_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF44FDF159AA0FC7213BDA73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEC3D3CD6900F13A22A9E35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideMenuDemo_test/Pods-RESideMenuDemo_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F97E571ED3035500ED6F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F97E661ED3035500ED6F3B /* ViewController.m in Sources */,
+				66F97E631ED3035500ED6F3B /* AppDelegate.m in Sources */,
+				66F97E601ED3035500ED6F3B /* main.m in Sources */,
+				66F97E941ED3044600ED6F3B /* MenuViewController.m in Sources */,
+				66F97E991ED30C5900ED6F3B /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E701ED3035500ED6F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F97E791ED3035500ED6F3B /* RESideMenuDemo_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F97E7B1ED3035500ED6F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F97E841ED3035500ED6F3B /* RESideMenuDemo_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F97E761ED3035500ED6F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F97E5A1ED3035500ED6F3B /* RESideMenuDemo_test */;
+			targetProxy = 66F97E751ED3035500ED6F3B /* PBXContainerItemProxy */;
+		};
+		66F97E811ED3035500ED6F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F97E5A1ED3035500ED6F3B /* RESideMenuDemo_test */;
+			targetProxy = 66F97E801ED3035500ED6F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F97E671ED3035500ED6F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F97E681ED3035500ED6F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F97E6C1ED3035500ED6F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F97E6D1ED3035500ED6F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F97E861ED3035500ED6F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F97E871ED3035500ED6F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F97E891ED3035500ED6F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D47A061FBC694F432C04E61 /* Pods-RESideMenuDemo_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F97E8A1ED3035500ED6F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76F903B9630BE03BC2745B5 /* Pods-RESideMenuDemo_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66F97E8C1ED3035500ED6F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESideMenuDemo_test.app/RESideMenuDemo_test";
+			};
+			name = Debug;
+		};
+		66F97E8D1ED3035500ED6F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESideMenuDemo_test.app/RESideMenuDemo_test";
+			};
+			name = Release;
+		};
+		66F97E8F1ED3035500ED6F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RESideMenuDemo_test;
+			};
+			name = Debug;
+		};
+		66F97E901ED3035500ED6F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5VHM7SCC9;
+				INFOPLIST_FILE = RESideMenuDemo_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lilun.RESideMenuDemo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RESideMenuDemo_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F97E561ED3035500ED6F3B /* Build configuration list for PBXProject "RESideMenuDemo_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F97E861ED3035500ED6F3B /* Debug */,
+				66F97E871ED3035500ED6F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F97E881ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F97E891ED3035500ED6F3B /* Debug */,
+				66F97E8A1ED3035500ED6F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F97E8B1ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F97E8C1ED3035500ED6F3B /* Debug */,
+				66F97E8D1ED3035500ED6F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F97E8E1ED3035500ED6F3B /* Build configuration list for PBXNativeTarget "RESideMenuDemo_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F97E8F1ED3035500ED6F3B /* Debug */,
+				66F97E901ED3035500ED6F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F97E531ED3035500ED6F3B /* Project object */;
+}
